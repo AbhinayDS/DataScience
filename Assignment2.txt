@@ -1,0 +1,27 @@
+1. Create the below pattern using nested for loop in Python.
+
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+n = 5
+for x in range (0,n):
+    for y in range (0,x+1):
+        print ("*",end="")
+    print("")
+for x in range (0,n):
+    for y in range (x,n-1):
+        print ("*",end="")
+    print("")
+
+
+2. Write a Python program to reverse a word after accepting the input from the user.
+
+word = input("Enter any word to reverse : ")
+print (word[::-1])
